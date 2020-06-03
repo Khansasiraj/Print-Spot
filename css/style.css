@@ -1,0 +1,193 @@
+/* <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+body
+{
+    font-family: 'Lato', sans-serif;
+} */
+
+/* Nav bar Starts */
+.logoImg
+{
+    width: 15%;
+    height: 80px;
+    /* margin-left: 40%; */
+    margin: 1% 0% 1% 0%;
+}
+
+.mainll
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #5E7886;
+}
+.linel
+{
+    width: 90px;
+    height: 50px;
+    border-bottom: 2px solid #EE3438;
+    margin: 0PX -10PX 0PX -20PX;
+}
+
+.navColor
+{
+    background-color: #5E7886;
+    height: 42px !important;
+
+}
+
+.nav-link, .dropdown-item 
+{
+    color: white !important; 
+}
+
+.activeNav
+{
+    background-color: #EE3438;
+    color: white !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .logoIm
+    {
+        display: none;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    .logoIm
+    {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 992px) 
+{
+    .logoIm
+    {
+        width: 17%;
+        height: 60px;
+        margin: 1.5% 0% 1% 2%;
+    }
+    .logoImg
+    {
+        /* width: 40px;
+        height: 40px;
+        margin-left: 2%; */
+
+        display: none;
+    }  
+    .mainll
+    {
+   display: none;
+    }
+
+    .linel
+    {
+   display: none;
+    }
+    .logo
+    {
+        background-color: #5E7886;
+    }
+    .navColor
+    {
+        background-color: white !important;
+        height: auto !important;
+    }
+
+    .nav-item
+    {
+    margin: 0% 0% 0.5% 0% !important;
+    }
+    .side
+    {
+        display: none;
+    }
+}
+
+.nav:hover
+{
+    background-color: #EE3438;
+    color: white !important;
+    transition: 0.5s;
+}
+.dropdown-menu
+{
+    background-color: #5E7886 !important;
+}
+
+.navbar-toggler
+{
+    margin-top: -12% !important;
+    color: white !important;
+}
+
+#navbarNavAltMarkup
+{
+    background-color: #5E7886 !important;
+    color: white !important;
+}
+
+
+/* Navbar Ends */
+
+
+/* Connect Starts */
+.mainl
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #5E7886;
+}
+.line
+{
+    width: 50px;
+    height: 20px;
+    margin-right: 10PX;
+    margin-left: 10px;
+    border-bottom: 2px solid #EE3438;
+}
+.fa-facebook-square , .fa-instagram-square, .fa-google-plus-square , .fa-whatsapp-square , .fa-twitter-square
+{
+    font-size: 40px !important;
+    margin-left: 2% !important;
+    color: #EE3438 !important;
+}
+
+.fa-facebook-square:hover , .fa-instagram-square:hover, .fa-google-plus-square:hover , .fa-whatsapp-square:hover , .fa-twitter-square:hover
+{
+    font-size: 45px !important;
+}
+
+
+/* Connect Ends */
+
+/* footer Start */
+.footer
+{
+    background-color: #5E7886;
+    color: white;
+}
+
+.linkText
+{
+    color: white;
+}
+
+.linkText:hover
+{
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.copyRight
+{
+    background-color: lightgrey;
+    color: #EE3438;
+}
+
+
+/* footer End */

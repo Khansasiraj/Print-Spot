@@ -1,0 +1,195 @@
+/* Home Pgae */
+
+/* categories */
+.catlog
+{
+  width: 100%;
+  height: 250px;
+  background-color: #ccc;
+  opacity: 0.4;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.centered:hover , .catlog:hover
+{
+  color: #EE3438;
+  transition: 1s;
+}
+
+/* categories Ends */
+
+/* service slider */
+
+.owl-carousel
+{
+  height: 150px;
+  overflow: hidden;
+}
+
+.service
+{
+  align-items: center !important;
+  text-align: center;
+  /* background-color: #5E7886; */
+  height: 150px;
+}
+
+.fa-truck, .fa-credit-card, .fa-award , .fa-history, .fa-headset, .fa-sync, .fa-redo-alt
+{
+  font-size: 50px !important;
+  color: #EE3438;
+}
+
+/* service slider Ends */
+
+/* services list */
+
+.sericeBox
+{
+  align-items: center;
+  display: flex;
+  color: slategray;
+}
+
+.fa-print, .fa-book-open, .fa-shopping-bag, .fa-gift, .fa-mail-bulk, .fa-box-open
+{
+  font-size: 20px !important;
+  color: #EE3438;
+}
+
+/* services list ends */
+
+/* Home Page Ends */
+
+
+
+
+/* About Page */
+
+.accordion {
+    background-color: #ccc;
+    color: #EE3438;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 8px;
+  }
+  
+  .activate, .accordion:hover {
+    background-color: #5E7886;
+    color: white;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color:  black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .activate:after {
+    content: "\2212";
+    color: white;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    color: slategray;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+/* About Page Ends */
+
+
+
+
+/*  Ctegaories Page*/
+
+/* breadcrumbs */
+.breadcrumb 
+{
+  background-color: white;
+  color: #5E7886 !important;
+  
+}
+.breadcrumb-item > a
+{
+  color: #EE3438 !important;
+  text-decoration: none;
+}
+
+.breadcrumb-item:hover
+{
+  font-size: large;
+}
+
+.breadcrumb-item
+{
+  color: #5E7886 !important;
+}
+
+/* breadcrumbs ends */
+
+
+/* list group */
+
+.list-group-item
+{
+  color: slategray;
+}
+
+.list-group-item-active
+{
+  background-color: #5E7886;
+  color: white;
+}
+
+.list-group-item-active:hover
+{
+  background-color: #EE3438;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) 
+{
+  .cardImg
+  {
+    height: 170px;
+  }
+}
+
+/* list group ends */
+
+/* categories page ends */
+
+
+
+/* Contact Page */
+.contact
+{
+    display: flex;
+}
+/* Contact Page Ends */
+
+.g
+{
+ text-align: center;
+ align-items: center;
+}
