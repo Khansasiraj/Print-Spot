@@ -173,6 +173,20 @@
   {
     height: 170px;
   }
+
+  .card{
+    height: 16em !important;
+  }
+}
+
+.card{
+  height: 20em;
+}
+
+.gimg
+{
+  width: 25% !important;
+  height: auto !important;
 }
 
 /* list group ends */
